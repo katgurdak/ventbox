@@ -14,6 +14,6 @@ angular.module('ventbox', [
     	controller: 'VentController'
     })
     .otherwise({
-    	redirectTo: '/vent'
+    	redirectTo: '/'
     });
 });

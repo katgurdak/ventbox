@@ -4,6 +4,10 @@ var app = express();
 
 app.use(express.static(__dirname + '/../client'));
 
+app.get('/', function(request, response) {
+  response.render('index');
+});
+
 app.listen(process.env.PORT || 5000);
 
 console.log('Listening!');

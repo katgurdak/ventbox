@@ -1,44 +1,24 @@
-# Project Name #
+# VentBox #
 
-<!-- 
-> This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
+### A little encouragement goes a long way when a person has a problem to say. ###
 
-There is an approach called "working backwards" that is widely used at Amazon. They work backwards from the customer, rather than starting with an idea for a product and trying to bolt customers onto it. While working backwards can be applied to any specific product decision, using this approach is especially important when developing new products or features.
+## What does it do? ##
+  > VentBox is a site that allows you to vent to your heart's content...and encourages you for it. But really, life can be tough. Vent, know that you're not alone, and get an encouraging quote out of it.
 
-For new initiatives a product manager typically starts by writing an internal press release announcing the finished product. The target audience for the press release is the new/updated product's customers, which can be retail customers or internal users of a tool or technology. Internal press releases are centered around the customer problem, how current solutions (internal or external) fail, and how the new product will blow away existing solutions.
+## You got a problem? ##
+  > Everybody has something to vent about. Backbone not making sense? Are your omelettes not as perfect as Nick Spinosa's? Tell us about it! We'll listen.
 
-If the benefits listed don't sound very interesting or exciting to customers, then perhaps they're not (and shouldn't be built). Instead, the product manager should keep iterating on the press release until they've come up with benefits that actually sound like benefits. Iterating on a press release is a lot less expensive than iterating on the product itself (and quicker!).
+## How do we solve that? ##
+  > With a click of a button, VentBox will take your issues and make them disappear. With an encouraging quote, we hope VentBox will let you tackle your problem with a lighter mind. Try it out!
 
-If the press release is more than a page and a half, it is probably too long. Keep it simple. 3-4 sentences for most paragraphs. Cut out the fat. Don't make it into a spec. You can accompany the press release with a FAQ that answers all of the other business or execution questions so the press release can stay focused on what the customer gets. My rule of thumb is that if the press release is hard to write, then the product is probably going to suck. Keep working at it until the outline for each paragraph flows. 
-
-Oh, and I also like to write press-releases in what I call "Oprah-speak" for mainstream consumer products. Imagine you're sitting on Oprah's couch and have just explained the product to her, and then you listen as she explains it to her audience. That's "Oprah-speak", not "Geek-speak".
-
-Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
- -->
- 
-## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
-
-## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
-
-## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
-
-## Problem ##
-  > Describe the problem your product solves.
-
-## Solution ##
-  > Describe how your product elegantly solves the problem.
-
-## Quote from You ##
-  > A quote from a spokesperson in your company.
+## Super Official Quotes ##
+  > "With VentBox, whatever your problem is, know that you're not alone." -Spokesperson#23
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > VentBox is ridiculously easy to use. Simply vent away in the given box, click to submit, and watch your problems disappear.
 
-## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+## See what our users have to say! ##
+  > "Oh wow! It's so refreshing to just get out all the little problems within the day. VentBox is great and I'll definitely be visiting it again." -HypotheticalCustomer#212
 
-## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+## Call to Action ##
+  > In closing, what are you waiting for? Head on over to our site and start venting!

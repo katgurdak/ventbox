@@ -1,0 +1,23 @@
+{
+  "name": "ventbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katgurdak/ventbox.git"
+  },
+  "author": "Katrina Gurdak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katgurdak/ventbox/issues"
+  },
+  "homepage": "https://github.com/katgurdak/ventbox#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0"
+  }
+}

@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="ventbox">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles/style.css" />
 	<title>VentBox</title>
 </head>
 <body>
 	<h1>VentBox</h1>
+	<nav>
+		<ul>
+			<li><a href="#vent"></a>Vent</li>
+			<li><a href="#about"></a>About</li>
+		</ul>
+	</nav>
+
+	<div ng-view></div>
+
+	<script src="../node_modules/angular/angular.js"></script>
+	<script src="../node_modules/angular-route/angular-route.js"></script>
+	<script src="app/quotes/quotes.js"></script>
+	<script src="app/vent/vent.js"></script>
+	<script src="app/app.js"></script>
 </body>
 </html>

@@ -76,6 +76,10 @@ h1 a {
 	color: #fff;
 }
 
+h1 a:hover {
+	text-decoration: none;
+}
+
 .logo {
   float: left;
 	padding: 10px 0 22px 0;
@@ -120,12 +124,32 @@ nav li:last-child {
 
 /*
   ========================================
+  Start
+  ========================================
+*/
+
+.center {
+	position: fixed;
+	top: 250px;
+	left: 45%;
+	margin-top: -10px;
+	margin-left: -30px;
+}
+
+p {
+	padding: 0 0 10px 25px;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+/*
+  ========================================
   Quote
   ========================================
 */
 
 .quote {
-
+  border-color: #ff6a5c;
 }
 
 /*
@@ -135,7 +159,15 @@ nav li:last-child {
 */
 
 .vent {
+	margin-top: 50px;
+	position: fixed;
+  left: 50%;
+  outline-color: #ff6a5c;
+  transform: translate(-50%, -50%);
+}
 
+textarea {
+	resize: none;
 }
 
 /*
@@ -148,8 +180,30 @@ button {
   border-radius: 5px;
 	color: #fff;
 	cursor: pointer;
-	display: inline-block;
+	display: block;
 	font-weight: 400;
 	letter-spacing: .5px;
-	margin: 0;
+	outline: none;
+}
+
+.btn-alt {
+	font-size: 25px;
+	padding: 20px 60px;
+}
+
+.travel {
+	position: fixed;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*
+  ========================================
+  Views
+  ========================================
+*/
+
+.container {
+	margin-top: 40px;
 }

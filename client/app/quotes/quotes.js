@@ -21,7 +21,11 @@ angular.module('ventbox.quotes', [])
   '“Fall seven times, stand up eight.” ~Japanese Proverb',
   '“Be patient with yourself. Self-growth is tender; it’s holy ground. There’s no greater investment.” ~Stephen Covey',
   '“Would you like me to give you a formula for success? It’s quite simple, really. Double your rate of failure. You are thinking of failure as the enemy of success. But it isn’t at all. You can be discouraged by failure or you can learn from it, So go ahead and make mistakes. Make all you can. Because remember that’s where you will find success.” ~Thomas J. Watson',
-  '“Nobody can go back and start a new beginning, but anyone can start today and make a new ending.” ~Maria Robinson'];
+  '“Nobody can go back and start a new beginning, but anyone can start today and make a new ending.” ~Maria Robinson',
+  '“All progress takes place outside the comfort zone.” ~Michael John Bobak',
+  '“There are moments when troubles enter our lives and we can do nothing to avoid them. But they are there for a reason. Only when we have overcome them will we understand why they were there.” ~Paulo Coelho, The Fifth Mountain',
+  '“Don\'t let the muggles get you down.” ~J.K. Rowling, Harry Potter and the Prisoner of Azkaban',
+  '“Thankfully, persistence is a great substitute for talent.” ~Steve Martin, Born Standing Up: A Comic\'s Life'];
   var getRandomQuote = function() {
   	return quotes[Math.floor(Math.random() * quotes.length)];
   };

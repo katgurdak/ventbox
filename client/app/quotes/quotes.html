@@ -1,3 +1,7 @@
-<blockquote>
-  Hello!
-</blockquote>
+<div class="quote" ng-controller="QuotesController">
+	<blockquote ng-model="randomQuote">
+   {{ randomQuote }}
+	</blockquote>
+</div>
+
+<button type="submit" ng-click="ventMore()">Click here to vent some more!</button>

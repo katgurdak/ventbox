@@ -8,8 +8,9 @@ app.get('/', function(request, response) {
   response.render('index');
 });
 
-app.listen(process.env.PORT || 5000);
+var port = process.env.PORT || 5000
+app.listen(port);
 
-console.log('Listening!');
+console.log('Listening on ' + port + '!');
 
 module.exports = app;

@@ -6,18 +6,24 @@
 		<title>VentBox</title>
 	</head>
 	<body>
-		<h1>VentBox</h1>
-		<nav>
-			<ul>
-				<li><a href="#vent">Vent</a></li>
-				<li><a href="#about">About</a></li>
-			</ul>
-		</nav>
+	  <header>
+			<h1>
+				<a class="logo" href="#start">VentBox</a>
+			</h1>
+			<nav>
+				<ul>
+				  <li><a href="#start">Home</a></li>
+					<li><a href="#vent">Vent</a></li>
+					<li><a href="#about">About</a></li>
+				</ul>
+			</nav>
+	  </header>
 
-		<div ng-view></div>
+		<section ng-view></section>
 
 		<script src="lib/angular/angular.js"></script>
 		<script src="lib/angular-route/angular-route.js"></script>
+		<script src="app/start/start.js"></script>
 		<script src="app/quotes/quotes.js"></script>
 		<script src="app/vent/vent.js"></script>
 		<script src="app/app.js"></script>

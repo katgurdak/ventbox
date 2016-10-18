@@ -1,7 +1,10 @@
-<div class="vent" ng-controller="VentController">
+<div class="container" ng-controller="VentController">
 	<form>
-		<textarea type="text" rows="3" cols="25" ng-model="vent" placeholder="Vent here!"></textarea>
+		<textarea class="vent" type="text" rows="3" cols="25" ng-model="vent" placeholder="Vent here!"></textarea>
 		<br>
-		<button ng-click="getQuote()" type="submit">Click here when finished!</button>
+		<h4>
+			Click here when done >>>
+		</h4>
+		<button ng-click="getQuote()" type="submit">Submit</button>
 	</form>
 </div>
